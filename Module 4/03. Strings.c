@@ -1,5 +1,5 @@
 /*
-En este codigo fuente se muestra cómo se trabaja con cadenas
+En este codigo fuente se muestra cÃ³mo se trabaja con cadenas
 */
 #include <stdio.h>
 #include <string.h>
@@ -52,7 +52,7 @@ void f3_ingresoPorPantalla(){
     printf("Ingrese una frase:\n");
     scanf("%[^\n]s",cad); fflush(stdin);
     printf("La frase ingresada es: %s\n",cad);
-    /* Pero por como funciona SCANF que no valida el tamaño del bufer,
+    /* Pero por como funciona SCANF que no valida el tamaÃ±o del bufer,
     es mejor utilizar fgets */
     printf("Ingrese una frase mas:\n");
     gets(cad);
