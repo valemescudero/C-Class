@@ -1,5 +1,5 @@
 /*
-En este codigo fuente se muestra cómo se trabaja con vectores de letras
+En este codigo fuente se muestra cÃ³mo se trabaja con vectores de letras
 */
 
 #include <stdio.h>
@@ -8,10 +8,10 @@ En este codigo fuente se muestra cómo se trabaja con vectores de letras
 int f1_declaracion(){
     int i;
     /* asi se declara un vector de letras*/
-    char vec2[] = {'a','b','c','d'}; /* no especifico tamaño pero toma el tamaño de la cantidad de elementos */
+    char vec2[] = {'a','b','c','d'}; /* no especifico tamaÃ±o pero toma el tamaÃ±o de la cantidad de elementos */
     /*
     carga del vector por posicion,
-    esté o no iniciado
+    estÃ© o no iniciado
     */
     printf("Declaracion de vectores, asignacion y acceso de valores\n");
     vec2[0]=578; /* este valor (65+512) no entra en un char (overflow) pero algo queda guardado. Que queda? */
