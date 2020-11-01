@@ -1,5 +1,5 @@
 /*
-En este codigo fuente se muestra cómo se trabaja con vectores
+En este codigo fuente se muestra cÃ³mo se trabaja con vectores
 */
 
 #include <stdio.h>
@@ -8,12 +8,12 @@ En este codigo fuente se muestra cómo se trabaja con vectores
 int f1_declaracion(){
     int i;
     /* asi se declara un vector */
-    int vec1[10]; /* se debe especificar el tamaño siempre, el vector queda vacio */
-    char vec2[] = {'a','b','c','d'}; /* no especifico tamañp pero toma el tamaño de la cantidad de elementos */
+    int vec1[10]; /* se debe especificar el tamaÃ±o siempre, el vector queda vacio */
+    char vec2[] = {'a','b','c','d'}; /* no especifico tamaÃ±p pero toma el tamaÃ±o de la cantidad de elementos */
     int vec3[DIM]={11,22,33}; /* uso de valores con instrucciones DEFINE */
     /*
     carga del vector por posicion,
-    esté o no iniciado
+    estÃ© o no iniciado
     */
     printf("Declaracion de vectores, asignacion y acceso de valores\n");
     vec1[0]=999;
@@ -47,7 +47,7 @@ int f3_promedio(){
 int f4_duplicarVector(int* vec, int tam){
     /*
     El vector se pasa como un puntero, por ende hay que
-    pasar el tamaño del vector como otro parametro
+    pasar el tamaÃ±o del vector como otro parametro
     */
     int i;
     printf("Duplicando los valores del vector\n");
