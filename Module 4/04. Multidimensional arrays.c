@@ -1,5 +1,5 @@
 /*
-En este codigo fuente se muestra cómo se trabaja con vectores multidimensionales, alias matrices
+En este codigo fuente se muestra cÃ³mo se trabaja con vectores multidimensionales, alias matrices
 */
 #include <stdio.h>
 #include <string.h>
